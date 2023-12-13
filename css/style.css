@@ -1,0 +1,96 @@
+@import url(./global.css);
+
+:root{
+    --fonte-principal: 'Raleway', sans-serif;    
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-principal);
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../assets/images/banner.png);
+    background-color: black;
+    border-bottom: 1px solid #33A8DB;    ;
+
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 465px 75px;
+    align-items: center;
+    background-color: transparent;
+    
+}
+
+.logo{
+    display: flex;
+    width: 248px;
+    height: 214px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.20);
+    justify-content: center;
+    margin: 56px 0px 16px 0px;
+    padding: 27px 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2em;
+    background: linear-gradient(#33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 + p{
+    width: 510px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: -1px;
+    line-height: 1.2em;
+    margin-bottom: 24px;
+}
+
+button{
+color: #31a8db;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 3.36px;
+background-color: transparent;
+border: 1px solid #31a8db;
+padding: 19px 91px;
+}
+
+#course-content{
+
+}
+
+.modules-list{
+
+}
+
+.module{
+
+}
+
+#transform-world{
+
+}
+
+#professional-challenges{
+
+}
+
+.dio-logo{
+
+}
