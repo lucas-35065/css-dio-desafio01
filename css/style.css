@@ -13,7 +13,7 @@ body{
 .banner{
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../assets/images/banner.png);
     background-color: black;
-    border-bottom: 1px solid #33A8DB;    ;
+    border-bottom: 1px solid #33A8DB;
 
 }
 
@@ -47,6 +47,7 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 h1 + p{
@@ -68,29 +69,115 @@ line-height: normal;
 letter-spacing: 3.36px;
 background-color: transparent;
 border: 1px solid #31a8db;
-padding: 19px 91px;
+padding: 19px 30px;
+text-transform: uppercase
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #course-content{
+    width: 800px;
+    text-align: center;
+    margin: 118px 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
+h2{
+    color: #33A8DB;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+}
+
+h2 + p {
+    line-height: 1.5em;
 }
 
 .modules-list{
-
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
 }
 
 .module{
+    width: 530px;
+    border: 1px solid #33A8DB;
+    border-radius: 30px;
+    padding: 16px;
+    background: #252525;
+    text-align: center;
+    box-shadow: inset -6px 9px 10px rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+span {
+    color: #33A8DB;
 }
 
 #transform-world{
+    width: 80vw;
+    height: 100px;
+    text-transform: lowercase;
+    padding: 150px;
+    background-size: cover;
+    background-image: url(../assets/images/woman-code.png);
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+}
 
+#transform-world p{
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 4px 4px #33A8DB80;
 }
 
 #professional-challenges{
+    margin: 100px 0;
+    text-align: center;
+}
 
+h2 + img {
+    margin: 40px;
+}
+
+img + p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+footer{
+    padding: 50px;
+    border-top: 1px solid #33A8DB80 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
 }
 
 .dio-logo{
+    max-width: 320px;
+    margin-bottom: 15px;
+}
 
+p > a{
+    color: #33A8DB;
+    font-weight: 900;
 }
